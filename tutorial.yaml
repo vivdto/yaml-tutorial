@@ -40,6 +40,40 @@ microservicesList:
             #ports = list
             #volumeMounts = list of objects
             
+multilineString: >
+            hey! this is a multiline string and this the,
+            next line.
+            next line!
+
+# | is used for multiline and '>' is used for signle line.
+
+
+# env variable
+
+command:
+    - /bin/sh
+    - -ec
+    - >-
+        mysql -h 128.0.0.1 -u root - p$MYSQL_ROOT_PASSWORD -e 'SELECT 1
+        
+#placeholder
+
+    # {{}}
+
+#multiple components 
+    
+    
+    # just add ---
+    
+---
+
+# new file of yaml here :)
+
+# Document 2:
+
+
+            
+            
             
             
         
