@@ -1,0 +1,45 @@
+# this is the comments
+
+#key-val pair 
+
+app: user-authentication
+version: 1.7
+deployed: false
+
+# objects
+
+microservices:
+    app: user-authentication
+    version: 1.7
+#bool value
+    deployed: false
+# can be yes/no or on/off
+
+#list 
+    
+microservicesList:
+    -   app: user-authentication
+        version: 1.7
+#bool value
+        deployed: yes
+    -   app: shopping-cart
+        port: 9002
+        version: 
+            - 1.9
+            - 2.9
+            - 3.9
+            #nested list items
+            
+            
+            # key-value pairs
+            # metadata = object
+            # labels = object
+            # spec = object
+            # containers = list of objects
+            
+            #ports = list
+            #volumeMounts = list of objects
+            
+            
+            
+        
